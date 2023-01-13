@@ -15,7 +15,9 @@ ul{
     display: flex;
     margin-inline: 30px;
 }
-ul img
+ul img{
+    width: 70px;
+}
 li{
     list-style: none;
     margin-inline: 30px;
