@@ -16,9 +16,6 @@ box-shadow: 0 0 15px 0 black;
 header * {
 display: inline;
 }
-header ul{
-    padding:20px;
-}
 header li {
 margin: 20px;
 }
@@ -36,17 +33,28 @@ text-decoration: none;
     }
          
     .search{
-        float:right;
+        float:center;
         margin:7px;
     }
          
     .search button{
         background-color: #00b5d9;
         color: #f2f2f2;
-        float: right;
+        float: Center;
         padding: 5px 10px;
         margin-right: 16px;
         font-size: 12px;
         border: none;
         cursor: pointer;
+    }
+    .btn button{
+        width: 100px;
+        height: 40px;
+        border: 5px solid rgba(250,10,10,0.801);
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
     }
