@@ -1,0 +1,45 @@
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1
+}
+
+.bord {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+}
+
+.crossfd {
+  background: url("https://picsum.photos/200/200?image=0");
+  display: inline-block;
+  background-size: cover;
+}
+
+.crossfd img {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.crossfd img:hover {
+  opacity: 0;
+}
+</style>
+
+<div class="container">
+    <div class="box bord crossfd">
+      <img src="https://picsum.photos/200/300?image=1" width="100%" alt="Lou" />
+    </div>
+    <div class="box bord crossfd">
+      <img src="https://picsum.photos/200/300?image=2" width="100%" alt="Lou" />
+    </div>
+    <div class="box bord crossfd">
+      <img src="https://picsum.photos/200/300?image=3" width="100%" alt="Lou" />
+    </div>
+  </div>
