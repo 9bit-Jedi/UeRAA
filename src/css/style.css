@@ -37,11 +37,12 @@ header {
     
 background: linear-gradient(to right, #2d388a 0%, #008bef 100%);
 right: 0;
-top: 100px;
+top: 0;
 height: 80px;
 display: flex;
 align-items: center;
 box-shadow: 0 0 15px 0 black;
+position:sticky;
 }
 header * {
 display: inline;
