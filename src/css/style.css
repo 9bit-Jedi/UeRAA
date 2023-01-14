@@ -2,7 +2,9 @@
     margin:0;
     padding: 0;
 }
-
+a{
+    text-decoration: none;
+}
 body 
 {
 background-color: #ffffff;
@@ -46,7 +48,7 @@ display: inline;
 }
 
 header li a {
-    color: rgb(249, 246, 244);
+    color: rgb(244, 249, 249);
     text-decoration: none;
     padding: 15px;
     margin: 10px;
@@ -57,10 +59,8 @@ header li a:hover{
     color:#2d388a;
     background-color: #f6f6f6;
     border-radius: 10px;
+    text-shadow: 1px 1px 1px grey;
 }
-       
-
-
 
 .img-div{
     display: flex;
