@@ -1,18 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
 body 
 {
-    background-color: #ffffff;
+background-color: #ffffff;
 background-size:cover;
 font-family: sans-serif;
 }
-nav{
+.nav2{
     display: flex;
     justify-content: space-evenly;
     color: white;
     margin-left: 5px;
     font-size: 20px;
 }
-ul{
+ul.nav-list{
     display: flex;
+    align-items: center;
     margin-inline: 20px;
 }
 ul img{
@@ -20,7 +26,7 @@ ul img{
 }
 li{
     list-style: none;
-    margin-inline: 30px;
+    margin-inline: 0px;
 }
 .btns{
     display: flex;
@@ -30,7 +36,7 @@ background-color: rgb(25, 52, 81);
 left: 0;
 right: 0;
 top: 100px;
-height: 70px;
+height: 80px;
 display: flex;
 align-items: center;
 box-shadow: 0 0 15px 0 black;
@@ -38,25 +44,44 @@ box-shadow: 0 0 15px 0 black;
 header * {
 display: inline;
 }
-header li {
-margin: 10px;
-}
+
 header li a {
-color: rgb(249, 246, 244);
-text-decoration: none;
+    color: rgb(249, 246, 244);
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+header li a:hover{
+    color:rgb(253, 225, 187);
+    background-color: rgb(39, 39, 123);
+    border-radius: 10px;
 }
        
 /* styling search bar */
 .rightNav{
-   
     display: flex;
     float:right;
     margin:0px;
     padding: 4px 100px;
     justify-content: right;
     align-items: right;
-    
+}
+#search{
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
 
+#search-btn{
+    margin: 10px;
+    padding-inline: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .logo_nav{
     height:80px;
