@@ -33,8 +33,12 @@
     text-shadow: 4px 4px 4px rgb(77, 77, 77);
     text-align: center;
     letter-spacing: 6px;
+    transition: 0.3s;
 }
 
+.container-1 p:hover{
+    color: #008bef;
+}
 
 /* styling search bar */
 .rightNav{
@@ -48,29 +52,31 @@
     align-items: right;
 }
 #search{
-    padding: 10px;
+    padding: 12px;
     margin: 10px 30px;
     width: 100%;
     font-size: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 4px solid white;
+    border-radius: 20px;
     transition: 0.5s;
 }
 
 #search:hover{
-    background-color: rgb(253, 241, 224) ;
+    border-color:#008bef;
+    border-radius: 10px;
 }
 
 #search-btn{
     margin: 10px;
-    padding-inline: 10px;
+    padding-inline: 12px;
     font-size: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 4px solid white;
+    border-radius: 20px;
     transition: 0.5s;
 }
 #search-btn:hover{
     color:rgb(25,52,81);
-    background-color: rgb(253, 241, 224);
+    border-color:#008bef;
+
     border-radius: 10px;
 }
