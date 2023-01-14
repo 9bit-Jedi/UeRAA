@@ -55,18 +55,30 @@ header li a {
 }
 header li a:hover{
     color:#2d388a;
-    background-color: rgb(253, 241, 224);
+    background-color: #f6f6f6;
     border-radius: 10px;
 }
        
 
+
+
+.img-div{
+    display: flex;
+    width: 350px;
+    background-color: #f6f6f6;
+}
 .logo_nav{
     height:80px;
+}
+.logo_text{
+    margin: 10px 0px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .lower-border{
     height: 4px;
     width: 100%;
     background: linear-gradient(to right, #fbb040 0%,#f9ed32 100%);
-
 }
