@@ -119,16 +119,15 @@ header li a:hover{
 }
 .about-text h1{
     color: white;
-    font size: 4.0rem;
+    font-size: 4.0rem;
     text-transform: capitalize;
-    margin-bottom: 20px;
-    align :centre;
+    margin-bottom: 20px;    
     text-align: center;
     
 }
 .about-text h3{
     color: rgb(255, 246, 246);
-    font size: 2rem;
+    font-size: 2rem;
     text-transform: capitalize;
     margin-bottom: 20px;
     letter-spacing: 3px;
@@ -137,7 +136,7 @@ header li a:hover{
 .about-text p{
     color: rgba(197, 174, 197, 0.8);
     letter-spacing: 1px;
-    line height: 28px;
+    line-height: 28px;
     font-size: 18px;
     margin-bottom: 450px;
 }
