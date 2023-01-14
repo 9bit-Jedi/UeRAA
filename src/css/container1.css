@@ -6,7 +6,7 @@
     height: 600px;
     color: aliceblue;
     background-color: rgb(159, 159, 159);
-    background-image: url('../assets/pizza-slices-food.jpg');
+    background-image: url('../../assets/containerBG.jpg');
     background-blend-mode: multiply;
     background-size:100% 100%;
 
