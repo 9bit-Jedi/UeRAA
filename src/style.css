@@ -32,8 +32,8 @@ li{
     display: flex;
 }
 header {
-background-color: rgb(25, 52, 81);
-left: 0;
+    
+background: linear-gradient(to right, #2d388a 0%, #008bef 100%);
 right: 0;
 top: 100px;
 height: 80px;
@@ -51,38 +51,22 @@ header li a {
     padding: 15px;
     margin: 10px;
     border-radius: 20px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 header li a:hover{
-    color:rgb(253, 225, 187);
-    background-color: rgb(39, 39, 123);
+    color:#2d388a;
+    background-color: rgb(253, 241, 224);
     border-radius: 10px;
 }
        
-/* styling search bar */
-.rightNav{
-    display: flex;
-    float:right;
-    margin:0px;
-    padding: 4px 100px;
-    justify-content: right;
-    align-items: right;
-}
-#search{
-    padding: 5px;
-    margin: 10px;
-    font-size: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
 
-#search-btn{
-    margin: 10px;
-    padding-inline: 10px;
-    font-size: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
 .logo_nav{
     height:80px;
+}
+
+.lower-border{
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, #fbb040 0%,#f9ed32 100%);
+
 }

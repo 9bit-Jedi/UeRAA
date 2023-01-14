@@ -1,7 +1,74 @@
 .container-1{
-    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
     height: 600px;
+    color: aliceblue;
+    background-color: rgb(159, 159, 159);
     background-image: url('../assets/pizza-slices-food.jpg');
+    background-blend-mode: multiply;
     background-size:100% 100%;
-    opacity: 0.9;
+
+}
+
+.container-1-1{
+    width: 70%;
+}
+
+.container-1 h1{
+    font-size: 140px;
+    font-family: roboto;
+    text-shadow: 4px 4px 10px rgb(76, 76, 76);
+    text-align: center;
+}
+
+.container-1 p{
+    margin: 40px 0px 10px 0px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 4px rgb(77, 77, 77);
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+
+/* styling search bar */
+.rightNav{
+    display: flex;
+    float:right;
+    width: 80%;
+    min-width: 150px;
+    margin: 0px;
+    padding: 4px 100px;
+    justify-content: right;
+    align-items: right;
+}
+#search{
+    padding: 10px;
+    margin: 10px 30px;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#search:hover{
+    background-color: rgb(253, 241, 224) ;
+}
+
+#search-btn{
+    margin: 10px;
+    padding-inline: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#search-btn:hover{
+    color:rgb(25,52,81);
+    background-color: rgb(253, 241, 224);
+    border-radius: 10px;
 }
