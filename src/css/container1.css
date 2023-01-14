@@ -8,7 +8,9 @@
     background-color: rgb(159, 159, 159);
     background-image: url('../../assets/containerBG.jpg');
     background-blend-mode: multiply;
-    background-size:100% 100%;
+    background-size:100% ;
+    object-fit:cover ;
+    background-position: center;    
 
 }
 
