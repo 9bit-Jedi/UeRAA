@@ -1,37 +1,40 @@
 /* styling search bar */
+.filler{
+    width: auto;
+}
 .rightNav1{
     display: flex;
     float:right;
-    width: 150%;
+    width: auto;
     min-width: 200px;
     margin: 5px;
-    padding: 8px 100px;
+    padding: 0;
     justify-content: right;
     align-items: right;
 }
-#search{
+#search1{
     padding: 10px;
-    margin: 10px 30px;
+    margin: 10px ;
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
-#search:hover{
+#search1:hover{
     background-color: rgb(246, 223, 190) ;
 }
 
-#search-btn{
+#search-btn1{
     margin: 10px;
     padding-inline: 10px;
-    font-size: 15px;
+    font-size: 15px_nav;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: 0.5s;
 }
-#search-btn:hover{
+#search-btn1:hover{
     color:rgb(25,52,81);
     background-color: rgb(245, 220, 187);
     border-radius: 10px;
