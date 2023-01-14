@@ -4,13 +4,14 @@
 }
 .rightNav1{
     display: flex;
+    align-self: right;
     float:right;
     width: auto;
     min-width: 200px;
     margin: 5px;
     padding: 0;
     justify-content: right;
-    align-items: right;
+    
 }
 #search1{
     padding: 10px;

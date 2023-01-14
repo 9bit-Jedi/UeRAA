@@ -16,6 +16,7 @@ font-family: sans-serif;
     justify-content: space-evenly;
     color: white;
     margin-left: 5px;
+    margin-right: auto;
     font-size: 20px;
 }
 ul.nav-list{
@@ -40,7 +41,6 @@ right: 0;
 top: 0;
 height: 80px;
 display: flex;
-align-items: center;
 box-shadow: 0 0 15px 0 black;
 position:sticky;
 }
@@ -65,11 +65,20 @@ header li a:hover{
 
 .img-div{
     display: flex;
-    width: 350px;
+    width: auto;
     background-color: #f6f6f6;
+    padding-right: 10px;
+    transition: 0.3s;
 }
+.img-div:hover{
+    border-radius: 20px;
+    scale: 0.85;
+}
+
 .logo_nav{
     height:80px;
+    border-radius: 30px;
+    
 }
 .logo_text{
     margin: 10px 0px;
