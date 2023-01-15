@@ -4,7 +4,9 @@
 }
 html{
     scroll-behavior: smooth;}
-
+a{
+    text-decoration: none;
+}
 body 
 {
 background-color: #ffffff;
@@ -108,7 +110,7 @@ header li a:hover{
     width: 550px;   
 }
 .main{
-    height: 1000px;
+    height: 700px;
     width: 100%;
     max-width: 100%;
     margin: 0;
@@ -138,7 +140,7 @@ header li a:hover{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
-    margin-bottom: 450px;
+    margin-bottom: 45px;
 }
 contact-box form{
     width: 80%;}
@@ -193,6 +195,8 @@ contact-box form{
     z-index: ;
 } */
 h1.h-primary.centre{
+    font-size: 4.0rem;
+
     text-align: center;
     margin: 30px 0px 30px 0px;
 }

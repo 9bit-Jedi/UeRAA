@@ -30,6 +30,7 @@ body{
 }
 
 .cards_wrap{
+	margin-top: 30px;
 	padding: 20px;
 	width: 100%;
 	display: flex;
@@ -81,8 +82,8 @@ body{
 	transition: 0.5s;
 }
 .cards_wrap .card_item .role_name:hover{
-	color: #006cba;
-	text-shadow: 2px 2px 3px rgb(164, 164, 164);
+	color: #067bcf;
+	text-shadow: 2px 2px 3px rgb(184, 183, 183);
 	font-size: 24px;
 }
 
